@@ -17,6 +17,4 @@ and then just run it.
 
 TAKE NOTE: https://support.twitter.com/articles/76915#Retweeting
 
-```
-Automation of Retweets often leads to spam and other negative user experiences; therefore, Retweeting in a bulk or automated manner is prohibited. Automated Retweeting is permitted for apps or accounts that Twitter deems to provide a community benefit.
-```
+  Automation of Retweets often leads to spam and other negative user experiences; therefore, Retweeting in a bulk or automated manner is prohibited. Automated Retweeting is permitted for apps or accounts that Twitter deems to provide a community benefit.
