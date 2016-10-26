@@ -23,7 +23,7 @@ for tweet in results["statuses"]:
     # that we've already retweeted.
     print(json.dumps(tweet, indent=4))
     try:
-      #client.retweet(id=tweet["id"])
+      client.retweet(id=tweet["id"])
       break
     except TwythonError as e:
       print(e)
