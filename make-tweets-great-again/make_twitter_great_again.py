@@ -21,9 +21,9 @@ for tweet in results["statuses"]:
   if re.search(rgx, text, re.I):
     # twitter.retweet will raise an error if we try to retweet a tweet
     # that we've already retweeted.
-    print(tweet)
+    print(json.dumps(tweet, indent=4))
     try:
-      client.retweet(id=tweet["id"])
+      #client.retweet(id=tweet["id"])
       break
     except TwythonError as e:
       print(e)
